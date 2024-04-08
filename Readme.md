@@ -16,7 +16,7 @@ Covering all states test:
 |--------|----------------------|
 | start  | Login page           |
 | Log in | User doesn't have an account yet |
-| Sign up| Success, user is logged into the site |
+| Sign up| User is logged into the site |
 | Log out| Log out page         |
 | Log in | Incorrect login details  |
 | Log in | User is logged into the site |

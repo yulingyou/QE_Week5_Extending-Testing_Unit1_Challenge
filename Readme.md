@@ -6,8 +6,8 @@ Allowing users to sign-up, log in and log out.
 | Initial State   | Event          | Next State                    |
 |-----------------|----------------|-------------------------------|
 | Log in page     | Log in         | User is logged into the site |
-| Log in page     | Incorrect login details   | login page       |
-| Log in page     | User hasn't signed up yet | sign up page    |
+| Log in page     | Incorrect login details   | Log in page       |
+| Log in page     | User hasn't signed up yet | Sign up page    |
 | User is logged into the site | Log out | Log out page                  |
 | Sign up page    | Sign up        | User is logged into the site |
 

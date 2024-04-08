@@ -6,10 +6,10 @@ Allowing users to sign-up, log in and log out.
 | Initial State   | Event          | Next State                    |
 |-----------------|----------------|-------------------------------|
 | Log in page     | Log in         | User is logged into the site |
-| Log in page     | Log in         | Incorrect login details, users back to the login page       |
-| Log in page     | Log in         | User hasn't signed up yet, sign up page    |
+| Log in page     | Incorrect login details   | login page       |
+| Log in page     | User hasn't signed up yet | sign up page    |
 | User is logged into the site | Log out | Log out page                  |
-| Sign up page    | Sign up        | Success, user is logged into the site |
+| Sign up page    | Sign up        | User is logged into the site |
 
 Covering all states test:
 | Events | States               |
@@ -18,10 +18,12 @@ Covering all states test:
 | Log in | User doesn't have an account yet |
 | Sign up| Success, user is logged into the site |
 | Log out| Log out page         |
+| Log in | Incorrect login details  |
+| Log in | User is logged into the site |
 
 
 ## State transition diagram
 
 
 
-![Week5_Unit1_Extending Testing](https://github.com/yulingyou/QE_Week5_Extending-Testing_Unit1_Challenge/assets/100756965/395d88ca-d9bb-4382-b455-6ed3f5ab47e7)
+![Week5_Unit1_Extending Testing](https://github.com/yulingyou/QE_Week5_Extending-Testing_Unit1_Challenge/assets/100756965/cc2d931f-898f-4582-9168-be1605e5476d)
